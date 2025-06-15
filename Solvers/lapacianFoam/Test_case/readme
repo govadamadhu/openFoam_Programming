@@ -1,1 +1,16 @@
+//Load the openFoam evnironment,, basically your installation directory
+. /opt/openFoam10/etc/bashrc 
 
+// clean the case
+
+foamCleanCase
+
+//foamCleanTutorials
+
+//setup mesh
+
+BlockMesh
+
+//Run the Simulation
+
+myLaplaceFoam
