@@ -14,3 +14,11 @@ BlockMesh
 //Run the Simulation
 
 myLaplaceFoam
+
+// For Visualizing the results ,, create the .foam file
+
+touch dummy.foam
+
+// Open it in Paraview in folder location or in terminal
+
+ParaFoam
