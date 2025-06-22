@@ -1,1 +1,3 @@
+It was complied in openFoam10 //Need to check for other versions
+
 It solves simple laplace equation in steadystate
