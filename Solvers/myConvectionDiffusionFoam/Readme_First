@@ -1,0 +1,17 @@
+
+// Deleting the zone indentifier files first
+
+find . -type f -name '*:Zone.Identifier' -delete
+
+
+//Loading the Environment
+
+. /opt/openfoam10/etc/bashrc
+
+//Cleaning the complied files
+
+wclean .all
+
+// For compling solver
+
+wmake
