@@ -1,1 +1,1 @@
- These tutorials are taken from the trushargohil openfoam (youtube) and complied in openFoam10.
+ These tutorials complied in openFoam10.
